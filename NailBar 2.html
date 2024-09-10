@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Beauty Atelier</title>
+    <style>
+      body {
+        background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      p1 {
+        font-size: 25px;
+        line-height: 1;
+        color: #000036;
+      }
+      h1 {
+        font-size: 45px;
+        color: #720e37;
+      }
+      h2 {
+        font-size: 30px;
+        color: #ec7297;
+      }
+      h3 {
+        font-size: 30px;
+        color: #0e99ea;
+      }
+      h4 {
+        font-size: 28px;
+      }
+      h5 {
+        font-size: 30px;
+        color: #f34f36;
+      }
+      h6 {
+        font-size: 30px;
+        color: #682d81;
+      }
+      footer {
+        text-align: center;
+        background-image: linear-gradient(-225deg, #a8bfff 0%, #884d80 100%);
+        padding: 20px;
+        margin: 10px 38px;
+      }
+      .container {
+        max-width: 1200px;
+        background: white;
+        padding: 30px;
+        margin: 20px auto;
+      }
+      .text-container {
+        background: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        color: rgb(255, 255, 255);
+        padding: 50px;
+        margin: 150px;
+        transform: translate(-50%, -50%);
+        top: 38%;
+        left: 25%;
+        border-radius: 20px;
+      }
+      .photo {
+        width: max-content;
+      }
+      .themeButton {
+        background: black;
+        color: white;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        border: none;
+        border-radius: 40px;
+        transition: all 200ms ease-in-out;
+      }
+      .themeButton:hover {
+        background: white;
+        color: black;
+        cursor: pointer;
+      }
+      .dark {
+        background: #131417;
+        color: white;
+      }
+      .dark .container {
+        background: #222221;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 15px;
+        transition: all 200ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.1);
+      }
+      .float-header {
+        display: block;
+      }
+      .float-header img {
+        float: inherit;
+        border-radius: 50px 80px 5px;
+        width: 250px;
+        border: 3px solid #959f60;
+        margin: 0 auto;
+      }
+      .bookings {
+        background: rgb(228, 66, 93);
+        color: white;
+        display: block;
+        font-size: 15px;
+        margin: 20px auto;
+        font-weight: 700;
+        padding: 20px;
+        border: none;
+        border-radius: 40px;
+      }
+      .bookings:hover {
+        background: #00b2ba;
+        color: rgb(228, 66, 93);
+        cursor: pointer;
+      }
+      .reviews {
+        text-align: center;
+        margin: 50px;
+      }
+      .appointment-header {
+        text-align: center;
+      }
+      .appointments {
+        background: #00b2ba;
+        color: white;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        font-weight: 700;
+        padding: 20px;
+        border: none;
+        border-radius: 40px;
+      }
+      .appointments:hover {
+        background: rgb(228, 66, 93);
+        color: #00b2ba;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="themeButton">Dark mode</button>
+    <div class="container">
+      <div class="photo">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/805/original/cool-background.png?1722581620"
+          alt=""
+        />
+        <div class="text-container">
+          <h1>Bloom Beauty Atelier</h1>
+          <p1>
+            welcome to Bloom Beauty Atelier, where beauty meets artistry.
+            Indulge in a world of pampering and precision at our nail bar, where
+            our skilled technicians use only the finest products to craft
+            stunning, one-of-a-kind nail experience. From classic manicures to
+            cutting-edge gel extensions, our goal is to help you unlock your
+            unique style and leave feeling confident, glamorous, and absolutely
+            gorgeous. Book your appointment and let us help you shine!</p1
+          >
+        </div>
+      </div>
+      <h2>Most love treatments</h2>
+      <p>
+        Let your nails do the talking. From a quick soak-off and reapplication
+        to <br />
+        a specialised, Bloom Beauty Atelier exclusive anti-aging manicure or a
+        nail repair.
+      </p>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/401/original/nails3.jpg?1722424113"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/402/original/nails4.jpg?1722424135"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/399/original/nails2.jpg?1722424082"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/400/original/nails1.jpg?1722424099"
+          alt=""
+        />
+      </div>
+      <div class="reviews">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/562/original/blue-quotation-marks-png.png?1722459477"
+          width="50px"
+          alt=""
+        />
+        <br />
+        <h5>Our Guests say it best</h5>
+        <p>
+          The salon is very clean and the staff is very friendly and welcoming.
+          Most <br />
+          importantly, I loooooooooove my nails!
+        </p>
+        <br />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/390/original/Sorbet_heart.png?1722419952"
+          width="60px"
+          alt=""
+        />
+        <br />
+        - Kgomotso Maraba <br />
+        BBA Guest
+      </div>
+      <div class="appointment-header">
+        <h6>Book anywhere, anytime</h6>
+        <p>
+          Book your appointments when it suits you. Choose the treatment, time
+          <br />
+          and Citizen you’d like to see and we’ll send you a reminder.
+        </p>
+        <button class="appointments">Book an appointment</button>
+      </div>
+      <hr />
+      <h3>Featured Citizen</h3>
+      <div class="float-header">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/410/original/me.jpg?1722426453"
+          alt=""
+        />
+        <h4>Zinhle Simelane, Nail Technician/Owner at Bloom Beauty Atelier.</h4>
+        <p>
+          Our Citizens are well trained, professional and understand our guests’
+          needs. <br />
+          You can select your favourite Citizen when you book online or request
+          them when you phone to book.
+        </p>
+        <button class="bookings">Book online</button>
+      </div>
+    </div>
+    <footer>
+      <a href="">E-mail: zinhle.simelane08@gmail.com</a> <br />
+      <p2>Coded with 💙 by Zinhle Simelane</p2>
+    </footer>
+    <script>
+      function themeButton() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+
+      let modeButton = document.querySelector(".themeButton");
+      modeButton.addEventListener("click", themeButton);
+
+      function bookAppointment() {
+        let name = prompt("What is your name?");
+        let time = prompt("what time would you like to come?");
+
+        let h6 = document.querySelector("h6");
+
+        if (time < 18) {
+          h6.innerHTML =
+            "Hi " + name + ", the " + time + " o'clock slot is yours! 😎";
+        } else {
+          h6.innerHTML =
+            "Hi " +
+            name +
+            ", unfortunately we're do not operate after " +
+            time +
+            " o'clock. ☹";
+        }
+      }
+
+      let appointmentButton = document.querySelector(".appointments");
+      appointmentButton.addEventListener("click", bookAppointment);
+
+      function bookOnline() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+
+        if (age >= 18) {
+          alert("Thank you " + name + " we will be in touch with you! 😊");
+        } else {
+          alert(
+            "Sorry ☹ " +
+              name +
+              ", please get someone who is 18+ to book for you! "
+          );
+        }
+      }
+
+      let onlineBooking = document.querySelector(".bookings");
+      onlineBooking.addEventListener("click", bookOnline);
+    </script>
+  </body>
+</html>
